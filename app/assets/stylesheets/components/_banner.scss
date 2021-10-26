@@ -1,0 +1,33 @@
+.image-banner {
+  background-image: url(https://source.unsplash.com/jLRIsfkWRGo);
+  background-size: cover;
+  background-position: center;
+  padding: 150 px 0;
+  height: 100vh;
+  width: 100%;
+}
+.container h1 {
+  font-size: 100px;
+  width: 70px;
+  height: 300px;
+  display: inline;
+  text-align: center;
+  color: white
+}
+.btn-ghost {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  border: 1px solid, #FFFF;
+  padding: 8px 24px;
+  border-radius: 50px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+
